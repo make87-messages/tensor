@@ -1,0 +1,24 @@
+syntax = "proto3";
+package make87.tensors;
+import "google/protobuf/timestamp.proto";
+
+
+message Matrix44 {
+  google.protobuf.Timestamp timestamp = 1;
+  float m00 = 2;
+  float m01 = 3;
+  float m02 = 4;
+  float m03 = 5;
+  float m10 = 6;
+  float m11 = 7;
+  float m12 = 8;
+  float m13 = 9;
+  float m20 = 10;
+  float m21 = 11;
+  float m22 = 12;
+  float m23 = 13;
+  float m30 = 14;
+  float m31 = 15;
+  float m32 = 16;
+  float m33 = 17;
+}
