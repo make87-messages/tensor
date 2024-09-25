@@ -3,7 +3,7 @@ package make87.tensors;
 import "google/protobuf/timestamp.proto";
 
 message Vector2 {
-  google.protobuf.Timestamp timestamp = 1;
-  float x = 2;
-  float y = 3;
+    google.protobuf.Timestamp timestamp = 1;
+    float x = 2;
+    float y = 3;
 }
