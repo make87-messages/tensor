@@ -1,5 +1,5 @@
 syntax = "proto3";
-package make87_messages.tensors;
+package make87_messages_tensors;
 import "google/protobuf/timestamp.proto";
 
 message Matrix22 {
