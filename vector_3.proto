@@ -1,9 +1,9 @@
 syntax = "proto3";
 package make87_messages.tensors;
-import "google/protobuf/timestamp.proto";
+import "make87_messages/core/header.proto";
 
 message Vector3 {
-    google.protobuf.Timestamp timestamp = 1;
+    make87_messages.core.Header header = 1;
     float x = 2;
     float y = 3;
     float z = 4;
